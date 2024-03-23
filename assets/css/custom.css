@@ -1,0 +1,457 @@
+.header-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+body {
+  overflow: visible;
+}
+html {
+  scroll-behavior: smooth;
+}
+.header-section,
+.header-section * {
+  box-sizing: border-box;
+}
+.header-section {
+  position: sticky;
+  top: 0;
+  border: 1px solid white;
+  z-index: 10;
+  backdrop-filter: blur(3px);
+  background: #ffffffcc;
+  box-shadow: 0px -1px 4px 1px #c6c6c6;
+}
+header.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+}
+.mobile-menu-toggle-btn {
+  display: none;
+}
+.header > .logo {
+  display: none;
+}
+.logo > img {
+  width: 100px;
+}
+.logo > span {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: #ea1b27;
+}
+.c_red {
+  color: #ea1b27;
+}
+.bg_red,
+.sigma_about.style-3 .sigma_video-btn {
+  background-color: #ea1b27;
+  background: #ea1b27 !important;
+}
+.sigma_general-list ul li i {
+  box-shadow: 0 3px 8px #d931318e;
+}
+.heading_arrow span.dots_div,
+.heading_arrow span,
+.heading_arrow span.dots_div::after {
+  background: #ea1b27 !important;
+}
+.service_box {
+  border-bottom: #d3e7ff solid 9px;
+  border-bottom: #ff051264 solid 9px;
+}
+.service_box:hover {
+  border-bottom: #ea1b27 solid 9px;
+}
+.c_white * {
+  color: white !important;
+}
+.service_images {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  aspect-ratio: 1/0.2;
+  justify-content: center;
+}
+.service_images img {
+  height: 100%;
+}
+.navbar_main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.navbar_main > nav ul {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  margin-left: -30px;
+}
+.navbar_main > nav ul li {
+  margin: 0;
+  padding: 0;
+}
+.navbar_main > nav ul li a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  color: #9993bf;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.navbar_main > nav ul li:hover,
+.navbar_main > nav ul li.active {
+  color: #ea1b27;
+}
+.navbar_main > .phone-number {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 90px;
+  color: #ff000f;
+}
+.mobile-menu-toggle-btn input {
+  display: none;
+}
+.mobile-menu-toggle-btn .fa-xmark {
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+}
+.hero-section {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #a6a6a6;
+}
+.hero-section .hero-img {
+  width: 50%;
+}
+.hero-section .hero-img img {
+  width: 100%;
+}
+.hero-section .hero-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-content .deco-elem {
+  display: flex;
+  gap: 20px;
+}
+.deco-elem > span {
+  display: block;
+  width: 20%;
+  aspect-ratio: 1/0.6;
+}
+.deco-elem > span.red {
+  background: #ffabb3;
+}
+.deco-elem > span.blue {
+  background: #8ab1fa;
+}
+.deco-elem > span.aqua {
+  background: #72f3fe;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-bottom: 80px;
+}
+.hero-text > p {
+  font-size: 32px;
+  color: black;
+}
+.hero-text > h1 {
+  font-size: 82px;
+  color: #ff0018;
+  margin: 10px 0 20px;
+}
+.hero-text > .icons {
+  display: flex;
+  gap: 40px;
+  margin: 0 0 50px;
+}
+.hero-text > .icons img {
+  width: 50px;
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+  max-width: max-content;
+}
+.s-logo {
+  position: absolute;
+  width: 200px;
+  left: -70px;
+  top: -70px;
+}
+/* ============ */
+/* ============ */
+/* ============ */
+
+.box_heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.port-image {
+  width: 100%;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+}
+.gallery_btns {
+  display: flex;
+  margin: 0 auto;
+}
+.gallery_btns button {
+  transform: scale(0.8) !important;
+  margin: 0 -10px 10px;
+}
+/* ============ */
+/* ============ */
+/* ============ */
+/* --- */
+.brand_worked {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.brand_worked > span {
+  color: #746f96;
+  font-size: 20px;
+  font-weight: 600;
+}
+.brand_worked > .img {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  gap: 30px;
+}
+.brand_worked > .img img {
+  width: 100px;
+}
+@media screen and (max-width: 1800px) {
+  .hero-text > h1 {
+    font-size: 62px;
+    padding-right: 120px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .hero-text > p {
+    margin: 0;
+  }
+  .hero-text {
+    padding-left: 15%;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .hero-text > h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .navbar_main > .phone-number {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar_main > .phone-number {
+    position: absolute;
+    left: 165px;
+    top: 34px;
+    font-size: 16px;
+    color: #9d8dbc;
+  }
+  .hero-text > p {
+    font-size: 28px;
+  }
+  .hero-text > .icons img {
+    width: 40px;
+  }
+  .hero-text > h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .hero-text > p {
+    font-size: 22px;
+  }
+  .hero-text > h1 {
+    margin-top: 0;
+  }
+  .hero-text > .icons {
+    margin: 0 0 30px 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .hero-text {
+    padding: 0 0 20px 5%;
+  }
+  .hero-text > .icons img {
+    width: 30px;
+  }
+  .hero-text > .icons {
+    margin: 0 0 20px 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header > .logo {
+    display: block;
+  }
+  .navbar_main > .logo {
+    display: none;
+  }
+  .mobile-menu-toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin: 0;
+  }
+  header.header {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar_main > nav ul {
+    margin: 0;
+  }
+  .navbar_main > .phone-number {
+    position: unset;
+  }
+  .navbar_main {
+    display: flex;
+    position: fixed;
+    overflow: auto;
+    left: -100vw;
+    top: 100px;
+    right: 0;
+    height: calc(100vh - 100px);
+    z-index: 100;
+    flex-direction: column-reverse;
+    backdrop-filter: blur(5px);
+    background: #ffffffe8;
+    border-top: 1px solid #c1c1c1;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  .mobile-menu-toggle-btn:has(input:checked) .fa-bars {
+    opacity: 0;
+  }
+  .mobile-menu-toggle-btn:has(input:checked) .fa-xmark {
+    opacity: 1;
+  }
+  header.header:has(.mobile-menu-toggle-btn input:checked) .navbar_main {
+    left: 0;
+  }
+  .hero-section .hero-content {
+    width: 660px;
+    margin-left: 200px;
+    padding-bottom: 40px;
+  }
+  .hero-section .hero-img {
+    display: none;
+  }
+  .deco-elem > span {
+    display: block;
+    width: 22%;
+    aspect-ratio: 1 / 0.4;
+  }
+  .hero-text > p {
+    margin: 30px 0 20px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .s-logo {
+    position: absolute;
+    width: 150px;
+    left: -50px;
+    top: -50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero-section .hero-content {
+    margin-left: 50px;
+  }
+  .gallery_btns {
+    transform: scale(0.7);
+    margin-left: -60px;
+  }
+}
+@media screen and (max-width: 550px) {
+  header.header {
+    padding: 10px 30px;
+  }
+  .header > .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo > span {
+    font-size: 16px;
+    width: 120px;
+    line-height: 1.3;
+    display: inline-block;
+  }
+  .hero-text > h1 {
+    padding-right: 70px;
+  }
+  .service_images {
+    flex-direction: column;
+  }
+  .service_images img {
+    width: 100%;
+    height: unset;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar_main > nav ul {
+    flex-direction: column;
+  }
+  .navbar_main > .phone-number {
+    position: absolute;
+    right: 10px;
+    left: unset;
+    line-height: 1.5;
+    top: 10px;
+    max-width: max-content;
+  }
+  .buttons {
+    /* flex-direction: column; */
+    width: 100%;
+    gap: 0;
+  }
+  .buttons > a {
+    width: 100%;
+    width: 100%;
+    transform: scale(0.7);
+  }
+  .hero-text {
+    padding: 0;
+  }
+  .hero-text > h1 {
+    padding-right: 0px;
+  }
+  .s-logo {
+    width: 80px;
+    left: -10px;
+    top: -30px;
+  }
+}
